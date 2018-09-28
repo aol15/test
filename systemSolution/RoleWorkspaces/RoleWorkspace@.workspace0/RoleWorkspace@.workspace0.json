@@ -1,0 +1,151 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
+  "Name": "New navigation profile",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "roleWorkspace",
+    "Owner": null,
+    "Alias": "workspace0"
+  },
+  "IsDefault": null,
+  "Description": null,
+  "Roles": null,
+  "NavigationItems": {
+    "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "ewewrwrwe",
+        "Description": null,
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "Priority": 2,
+        "ItemType": "recordTemplate",
+        "NavigationType": "systemNavigation",
+        "ContainerType": "recordTemplate",
+        "IconClass": "list-alt",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "template",
+          "Owner": null,
+          "Alias": "ewewrwrwe"
+        },
+        "TargetUrl": null,
+        "Severity": "none",
+        "ChildrenItems": null
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "All diagrams",
+        "Description": null,
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "Priority": 1,
+        "ItemType": "group",
+        "NavigationType": "systemNavigation",
+        "ContainerType": "group",
+        "IconClass": "project-diagram",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "TargetUrl": null,
+        "Severity": "none",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Class model diagrams",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 1,
+              "ItemType": "group",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "group",
+              "IconClass": "project-diagram",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": {
+                "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+                "$values": [
+                  {
+                    "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+                    "Name": "erter54634563",
+                    "Description": null,
+                    "Container": {
+                      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                      "Type": "undefined",
+                      "Owner": null,
+                      "Alias": null
+                    },
+                    "Priority": 2,
+                    "ItemType": "classModelDiagram",
+                    "NavigationType": "systemNavigation",
+                    "ContainerType": "classModelDiagram",
+                    "IconClass": "dot-circle",
+                    "Target": {
+                      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                      "Type": "undefined",
+                      "Owner": null,
+                      "Alias": null
+                    },
+                    "TargetUrl": null,
+                    "Severity": "none",
+                    "ChildrenItems": null
+                  },
+                  {
+                    "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+                    "Name": "defaultDiagram",
+                    "Description": null,
+                    "Container": {
+                      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                      "Type": "undefined",
+                      "Owner": null,
+                      "Alias": null
+                    },
+                    "Priority": 1,
+                    "ItemType": "classModelDiagram",
+                    "NavigationType": "systemNavigation",
+                    "ContainerType": "classModelDiagram",
+                    "IconClass": "dot-circle",
+                    "Target": {
+                      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                      "Type": "classModelDiagram",
+                      "Owner": null,
+                      "Alias": "defaultDiagram"
+                    },
+                    "TargetUrl": null,
+                    "Severity": "none",
+                    "ChildrenItems": null
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

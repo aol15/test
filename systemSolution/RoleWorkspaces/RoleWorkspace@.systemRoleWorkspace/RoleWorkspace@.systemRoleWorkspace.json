@@ -1,0 +1,118 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
+  "Name": "Системный профиль навигации",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "roleWorkspace",
+    "Owner": null,
+    "Alias": "systemRoleWorkspace"
+  },
+  "IsDefault": true,
+  "Description": "Системный профиль навигации",
+  "Roles": null,
+  "NavigationItems": {
+    "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Мои задачи",
+        "Description": null,
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "Priority": 4,
+        "ItemType": "myTasks",
+        "NavigationType": "systemNavigation",
+        "ContainerType": "undefined",
+        "IconClass": "tasks",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "TargetUrl": null,
+        "Severity": "none",
+        "ChildrenItems": null
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Люди",
+        "Description": null,
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "Priority": 3,
+        "ItemType": "people",
+        "NavigationType": "systemNavigation",
+        "ContainerType": "undefined",
+        "IconClass": "users",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "TargetUrl": null,
+        "Severity": "none",
+        "ChildrenItems": null
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Настройки",
+        "Description": null,
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "Priority": 2,
+        "ItemType": "settings",
+        "NavigationType": "systemNavigation",
+        "ContainerType": "undefined",
+        "IconClass": "cogs",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "TargetUrl": null,
+        "Severity": "none",
+        "ChildrenItems": null
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Шаблоны",
+        "Description": null,
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "Priority": 1,
+        "ItemType": "templates",
+        "NavigationType": "systemNavigation",
+        "ContainerType": "undefined",
+        "IconClass": "briefcase",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "TargetUrl": null,
+        "Severity": "none",
+        "ChildrenItems": null
+      }
+    ]
+  }
+}
