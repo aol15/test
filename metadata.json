@@ -2,9 +2,9 @@
   "$type": "Comindware.Platform.Transfer.Tools.TransferMetadata, Comindware.Platform.Transfer",
   "Name": "System business app",
   "Alias": "systemSolution",
-  "Description": "System business application",
-  "ExportDate": "2018-09-28T16:38:02.2506855Z",
-  "Database": "35b4c9dc-e025-4abc-a78a-f68b74037d1f",
+  "Description": "Системное бизнес приложение",
+  "ExportDate": "2018-10-01T09:33:06.5421941Z",
+  "Database": "4eb88689-af86-4df5-95fd-6a774143a3ca",
   "Server": "http://localhost/",
   "Version": "3.2.524.0"
 }

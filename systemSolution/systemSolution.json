@@ -2,5 +2,5 @@
   "$type": "Comindware.Platform.Contracts.SolutionConfigurationModel, Comindware.Platform.Contracts",
   "Alias": "systemSolution",
   "Name": "System business app",
-  "Description": "System business application"
+  "Description": "Системное бизнес приложение"
 }

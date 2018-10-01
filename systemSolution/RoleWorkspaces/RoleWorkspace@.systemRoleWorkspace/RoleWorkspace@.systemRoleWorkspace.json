@@ -23,7 +23,7 @@
           "Owner": null,
           "Alias": null
         },
-        "Priority": 4,
+        "Priority": 2,
         "ItemType": "myTasks",
         "NavigationType": "systemNavigation",
         "ContainerType": "undefined",
@@ -40,7 +40,7 @@
       },
       {
         "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
-        "Name": "Люди",
+        "Name": "Конфигурации",
         "Description": null,
         "Container": {
           "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
@@ -48,35 +48,10 @@
           "Owner": null,
           "Alias": null
         },
-        "Priority": 3,
-        "ItemType": "people",
+        "Priority": 1,
+        "ItemType": "group",
         "NavigationType": "systemNavigation",
-        "ContainerType": "undefined",
-        "IconClass": "users",
-        "Target": {
-          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-          "Type": "undefined",
-          "Owner": null,
-          "Alias": null
-        },
-        "TargetUrl": null,
-        "Severity": "none",
-        "ChildrenItems": null
-      },
-      {
-        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
-        "Name": "Настройки",
-        "Description": null,
-        "Container": {
-          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-          "Type": "undefined",
-          "Owner": null,
-          "Alias": null
-        },
-        "Priority": 2,
-        "ItemType": "settings",
-        "NavigationType": "systemNavigation",
-        "ContainerType": "undefined",
+        "ContainerType": "group",
         "IconClass": "cogs",
         "Target": {
           "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
@@ -86,32 +61,586 @@
         },
         "TargetUrl": null,
         "Severity": "none",
-        "ChildrenItems": null
-      },
-      {
-        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
-        "Name": "Шаблоны",
-        "Description": null,
-        "Container": {
-          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-          "Type": "undefined",
-          "Owner": null,
-          "Alias": null
-        },
-        "Priority": 1,
-        "ItemType": "templates",
-        "NavigationType": "systemNavigation",
-        "ContainerType": "undefined",
-        "IconClass": "briefcase",
-        "Target": {
-          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-          "Type": "undefined",
-          "Owner": null,
-          "Alias": null
-        },
-        "TargetUrl": null,
-        "Severity": "none",
-        "ChildrenItems": null
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Диаграммы",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 26,
+              "ItemType": "diagramList",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "diagramList",
+              "IconClass": "project-diagram",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Шаблоны",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 25,
+              "ItemType": "templates",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "templates",
+              "IconClass": "briefcase",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Бизнес приложения",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 23,
+              "ItemType": "splitter",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "undefined",
+              "IconClass": null,
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Документы",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 21,
+              "ItemType": "documents",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "documents",
+              "IconClass": "folder-open",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Отчёты",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 20,
+              "ItemType": "reports",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "reports",
+              "IconClass": "chart-line",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Бизнес приложения",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 19,
+              "ItemType": "splitter",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "undefined",
+              "IconClass": null,
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Пользователи",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 18,
+              "ItemType": "people",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "people",
+              "IconClass": "address-card",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Группы",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 17,
+              "ItemType": "userGroups",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "userGroups",
+              "IconClass": "users",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Бизнес приложения",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 16,
+              "ItemType": "splitter",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "undefined",
+              "IconClass": null,
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Роли",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 15,
+              "ItemType": "roles",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "roles",
+              "IconClass": "user-shield",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Системные роли",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 14,
+              "ItemType": "globalSecurity",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "globalSecurity",
+              "IconClass": "shield",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Бизнес приложения",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 13,
+              "ItemType": "splitter",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "undefined",
+              "IconClass": null,
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Глобальные функции",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 12,
+              "ItemType": "globalFunctions",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "globalFunctions",
+              "IconClass": "robot",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Пути передачи данных",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 11,
+              "ItemType": "communicationRoutes",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "communicationRoutes",
+              "IconClass": "route",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Каналы связи",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 10,
+              "ItemType": "communicationChannels",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "communicationChannels",
+              "IconClass": "exchange-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Типы сообщений",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 9,
+              "ItemType": "messageTypes",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "messageTypes",
+              "IconClass": "envelope-square",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Бизнес приложения",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 7,
+              "ItemType": "splitter",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "undefined",
+              "IconClass": null,
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Бекапы",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 6,
+              "ItemType": "backups",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "backups",
+              "IconClass": "coins",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Тема",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 5,
+              "ItemType": "themes",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "themes",
+              "IconClass": "palette",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Боковая навигация",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 4,
+              "ItemType": "roleWorkspace",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "roleWorkspace",
+              "IconClass": "stream",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Производительность",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 3,
+              "ItemType": "performance",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "performance",
+              "IconClass": "tachometer",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Active Directory",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 2,
+              "ItemType": "activeDirectory",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "activeDirectory",
+              "IconClass": "sitemap",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Настройки",
+              "Description": null,
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "Priority": 1,
+              "ItemType": "settings",
+              "NavigationType": "systemNavigation",
+              "ContainerType": "settings",
+              "IconClass": "cog",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "undefined",
+                "Owner": null,
+                "Alias": null
+              },
+              "TargetUrl": null,
+              "Severity": "none",
+              "ChildrenItems": null
+            }
+          ]
+        }
       }
     ]
   }
