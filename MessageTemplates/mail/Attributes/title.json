@@ -1,0 +1,31 @@
+{
+  "$type": "Comindware.Platform.Contracts.AttributeModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "attribute",
+    "Owner": null,
+    "Alias": "title"
+  },
+  "Type": "string",
+  "Format": "undefined",
+  "Name": "Тема",
+  "Description": null,
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsUnique": false,
+  "IsIndexed": false,
+  "IsTracked": true,
+  "IsMultiValue": false,
+  "IsTitle": false,
+  "IsMandatory": false,
+  "IsOwnership": false,
+  "IsCalculated": false,
+  "Expression": null,
+  "FileFormat": null,
+  "InstanceGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "undefined",
+    "Owner": null,
+    "Alias": null
+  }
+}

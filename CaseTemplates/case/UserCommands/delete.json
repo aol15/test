@@ -1,0 +1,42 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "userCommand",
+    "Owner": "case",
+    "Alias": "delete"
+  },
+  "Name": "delete",
+  "Description": null,
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "record",
+  "Multiplicity": "oneByOne",
+  "Actors": {
+    "$type": "System.String[], mscorlib",
+    "$values": [
+      "cmw.group.Everyone"
+    ]
+  },
+  "Kind": "script",
+  "ResultType": "dataChange",
+  "ConfirmationModelConfiguration": {
+    "$type": "Comindware.Platform.Contracts.UserCommandConfirmationModel, Comindware.Platform.Contracts",
+    "Title": "New operation",
+    "Text": "Confirm operation",
+    "YesButtonText": "Execute",
+    "NoButtonText": "Cancel",
+    "Severity": "none"
+  },
+  "ScriptRule": null,
+  "ConditionRule": null,
+  "RelatedAction": null,
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "undefined",
+    "Owner": null,
+    "Alias": null
+  }
+}

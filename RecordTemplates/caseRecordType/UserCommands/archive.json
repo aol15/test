@@ -1,0 +1,35 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "userCommand",
+    "Owner": "caseRecordType",
+    "Alias": "archive"
+  },
+  "Name": "Archive",
+  "Description": null,
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "record",
+  "Multiplicity": "oneByOne",
+  "Actors": {
+    "$type": "System.String[], mscorlib",
+    "$values": [
+      "cmw.group.Everyone"
+    ]
+  },
+  "Kind": "archive",
+  "ResultType": "dataChange",
+  "ConfirmationModelConfiguration": null,
+  "ScriptRule": null,
+  "ConditionRule": null,
+  "RelatedAction": null,
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "undefined",
+    "Owner": null,
+    "Alias": null
+  }
+}

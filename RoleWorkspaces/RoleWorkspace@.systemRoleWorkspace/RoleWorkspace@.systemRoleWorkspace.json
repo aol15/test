@@ -25,7 +25,6 @@
         },
         "Priority": 2,
         "ItemType": "myTasks",
-        "NavigationType": "systemNavigation",
         "ContainerType": "undefined",
         "IconClass": "tasks",
         "Target": {
@@ -50,7 +49,6 @@
         },
         "Priority": 1,
         "ItemType": "group",
-        "NavigationType": "systemNavigation",
         "ContainerType": "group",
         "IconClass": "cogs",
         "Target": {
@@ -76,7 +74,6 @@
               },
               "Priority": 26,
               "ItemType": "diagramList",
-              "NavigationType": "systemNavigation",
               "ContainerType": "diagramList",
               "IconClass": "project-diagram",
               "Target": {
@@ -101,7 +98,6 @@
               },
               "Priority": 25,
               "ItemType": "templates",
-              "NavigationType": "systemNavigation",
               "ContainerType": "templates",
               "IconClass": "briefcase",
               "Target": {
@@ -126,7 +122,6 @@
               },
               "Priority": 23,
               "ItemType": "splitter",
-              "NavigationType": "systemNavigation",
               "ContainerType": "undefined",
               "IconClass": null,
               "Target": {
@@ -151,7 +146,6 @@
               },
               "Priority": 21,
               "ItemType": "documents",
-              "NavigationType": "systemNavigation",
               "ContainerType": "documents",
               "IconClass": "folder-open",
               "Target": {
@@ -176,7 +170,6 @@
               },
               "Priority": 20,
               "ItemType": "reports",
-              "NavigationType": "systemNavigation",
               "ContainerType": "reports",
               "IconClass": "chart-line",
               "Target": {
@@ -201,7 +194,6 @@
               },
               "Priority": 19,
               "ItemType": "splitter",
-              "NavigationType": "systemNavigation",
               "ContainerType": "undefined",
               "IconClass": null,
               "Target": {
@@ -226,7 +218,6 @@
               },
               "Priority": 18,
               "ItemType": "people",
-              "NavigationType": "systemNavigation",
               "ContainerType": "people",
               "IconClass": "address-card",
               "Target": {
@@ -251,7 +242,6 @@
               },
               "Priority": 17,
               "ItemType": "userGroups",
-              "NavigationType": "systemNavigation",
               "ContainerType": "userGroups",
               "IconClass": "users",
               "Target": {
@@ -276,7 +266,6 @@
               },
               "Priority": 16,
               "ItemType": "splitter",
-              "NavigationType": "systemNavigation",
               "ContainerType": "undefined",
               "IconClass": null,
               "Target": {
@@ -301,7 +290,6 @@
               },
               "Priority": 15,
               "ItemType": "roles",
-              "NavigationType": "systemNavigation",
               "ContainerType": "roles",
               "IconClass": "user-shield",
               "Target": {
@@ -326,7 +314,6 @@
               },
               "Priority": 14,
               "ItemType": "globalSecurity",
-              "NavigationType": "systemNavigation",
               "ContainerType": "globalSecurity",
               "IconClass": "shield",
               "Target": {
@@ -351,7 +338,6 @@
               },
               "Priority": 13,
               "ItemType": "splitter",
-              "NavigationType": "systemNavigation",
               "ContainerType": "undefined",
               "IconClass": null,
               "Target": {
@@ -376,7 +362,6 @@
               },
               "Priority": 12,
               "ItemType": "globalFunctions",
-              "NavigationType": "systemNavigation",
               "ContainerType": "globalFunctions",
               "IconClass": "robot",
               "Target": {
@@ -401,7 +386,6 @@
               },
               "Priority": 11,
               "ItemType": "communicationRoutes",
-              "NavigationType": "systemNavigation",
               "ContainerType": "communicationRoutes",
               "IconClass": "route",
               "Target": {
@@ -426,7 +410,6 @@
               },
               "Priority": 10,
               "ItemType": "communicationChannels",
-              "NavigationType": "systemNavigation",
               "ContainerType": "communicationChannels",
               "IconClass": "exchange-alt",
               "Target": {
@@ -451,7 +434,6 @@
               },
               "Priority": 9,
               "ItemType": "messageTypes",
-              "NavigationType": "systemNavigation",
               "ContainerType": "messageTypes",
               "IconClass": "envelope-square",
               "Target": {
@@ -476,7 +458,6 @@
               },
               "Priority": 7,
               "ItemType": "splitter",
-              "NavigationType": "systemNavigation",
               "ContainerType": "undefined",
               "IconClass": null,
               "Target": {
@@ -501,7 +482,6 @@
               },
               "Priority": 6,
               "ItemType": "backups",
-              "NavigationType": "systemNavigation",
               "ContainerType": "backups",
               "IconClass": "coins",
               "Target": {
@@ -526,7 +506,6 @@
               },
               "Priority": 5,
               "ItemType": "themes",
-              "NavigationType": "systemNavigation",
               "ContainerType": "themes",
               "IconClass": "palette",
               "Target": {
@@ -551,7 +530,6 @@
               },
               "Priority": 4,
               "ItemType": "roleWorkspace",
-              "NavigationType": "systemNavigation",
               "ContainerType": "roleWorkspace",
               "IconClass": "stream",
               "Target": {
@@ -576,7 +554,6 @@
               },
               "Priority": 3,
               "ItemType": "performance",
-              "NavigationType": "systemNavigation",
               "ContainerType": "performance",
               "IconClass": "tachometer",
               "Target": {
@@ -601,7 +578,6 @@
               },
               "Priority": 2,
               "ItemType": "activeDirectory",
-              "NavigationType": "systemNavigation",
               "ContainerType": "activeDirectory",
               "IconClass": "sitemap",
               "Target": {
@@ -626,7 +602,6 @@
               },
               "Priority": 1,
               "ItemType": "settings",
-              "NavigationType": "systemNavigation",
               "ContainerType": "settings",
               "IconClass": "cog",
               "Target": {

@@ -1,0 +1,24 @@
+{
+  "$type": "Comindware.Platform.Contracts.GlobalFunctionModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "globalFunction",
+    "Owner": null,
+    "Alias": "funcertyrwy"
+  },
+  "Name": "func",
+  "Description": null,
+  "InputMessageTypeGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "messageType",
+    "Owner": null,
+    "Alias": "app"
+  },
+  "ReturnMessageTypeGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "messageType",
+    "Owner": null,
+    "Alias": "mail"
+  },
+  "Definition": null
+}

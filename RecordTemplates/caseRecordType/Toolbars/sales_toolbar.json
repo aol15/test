@@ -1,0 +1,68 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "toolbar",
+    "Owner": "caseRecordType",
+    "Alias": "sales_toolbar"
+  },
+  "Name": "sales_toolbar",
+  "IsDefaultForLists": false,
+  "IsDefaultForForms": false,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "UserCommandGlobalAlias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "userCommand",
+          "Owner": "caseRecordType",
+          "Alias": "create"
+        },
+        "Name": "Create",
+        "Description": null,
+        "Order": 0,
+        "Type": "action",
+        "IconType": "undefined",
+        "IconClass": null,
+        "Severity": "none",
+        "ChildrenItems": null
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "UserCommandGlobalAlias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "Name": "Splitter",
+        "Description": null,
+        "Order": 1,
+        "Type": "splitter",
+        "IconType": "undefined",
+        "IconClass": null,
+        "Severity": "none",
+        "ChildrenItems": null
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "UserCommandGlobalAlias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "undefined",
+          "Owner": null,
+          "Alias": null
+        },
+        "Name": "Group",
+        "Description": null,
+        "Order": 2,
+        "Type": "group",
+        "IconType": "undefined",
+        "IconClass": null,
+        "Severity": "none",
+        "ChildrenItems": null
+      }
+    ]
+  }
+}

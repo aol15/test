@@ -1,0 +1,13 @@
+{
+  "$type": "Comindware.Platform.Contracts.FormModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "caseForm",
+    "Owner": "case",
+    "Alias": "case_CaseForm"
+  },
+  "IsDefault": false,
+  "Root": null,
+  "Name": null,
+  "FormRules": null
+}

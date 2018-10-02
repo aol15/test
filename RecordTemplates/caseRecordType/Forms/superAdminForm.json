@@ -1,0 +1,107 @@
+{
+  "$type": "Comindware.Platform.Contracts.FormModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "form",
+    "Owner": "caseRecordType",
+    "Alias": "superAdminForm"
+  },
+  "IsDefault": false,
+  "Root": {
+    "$type": "Comindware.Platform.Contracts.VerticalLayoutModel, Comindware.Platform.Contracts",
+    "Rows": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.FormComponentModel, Comindware.Platform.Contracts]], mscorlib",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.SubFormModel, Comindware.Platform.Contracts",
+          "Name": null,
+          "Root": null,
+          "DataSourcePropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "form",
+                "Owner": "caseRecordType",
+                "Alias": "dev_form"
+              }
+            ]
+          },
+          "IsReadOnly": false,
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "formComponent",
+            "Owner": null,
+            "Alias": "dev_form"
+          },
+          "AccessType": "Undefined",
+          "Width": 0,
+          "Type": "subForm"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.SubFormModel, Comindware.Platform.Contracts",
+          "Name": null,
+          "Root": null,
+          "DataSourcePropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "form",
+                "Owner": "caseRecordType",
+                "Alias": "sales_form"
+              }
+            ]
+          },
+          "IsReadOnly": false,
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "formComponent",
+            "Owner": null,
+            "Alias": "sales_form"
+          },
+          "AccessType": "Undefined",
+          "Width": 0,
+          "Type": "subForm"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.SubFormModel, Comindware.Platform.Contracts",
+          "Name": null,
+          "Root": null,
+          "DataSourcePropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "form",
+                "Owner": "caseRecordType",
+                "Alias": "it_form"
+              }
+            ]
+          },
+          "IsReadOnly": false,
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "formComponent",
+            "Owner": null,
+            "Alias": "it_form"
+          },
+          "AccessType": "Undefined",
+          "Width": 0,
+          "Type": "subForm"
+        }
+      ]
+    },
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "formComponent",
+      "Owner": null,
+      "Alias": null
+    },
+    "AccessType": "Undefined",
+    "Width": 0,
+    "Type": "verticalLayout"
+  },
+  "Name": "superAdminForm",
+  "FormRules": null
+}

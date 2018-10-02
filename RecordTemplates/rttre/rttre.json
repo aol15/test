@@ -1,0 +1,12 @@
+{
+  "$type": "Comindware.Platform.Contracts.TemplateConfigurationModel, Comindware.Platform.Contracts",
+  "Name": "rttre",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "template",
+    "Owner": null,
+    "Alias": "rttre"
+  },
+  "IsDisabled": false,
+  "Description": null
+}

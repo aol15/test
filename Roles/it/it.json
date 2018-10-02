@@ -1,0 +1,118 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleConfigurationModel, Comindware.Platform.Contracts",
+  "Name": "it",
+  "Description": null,
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "roleConfiguration",
+    "Owner": null,
+    "Alias": "it"
+  },
+  "IsContext": true,
+  "RootResource": {
+    "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+    "Role": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "roleConfiguration",
+      "Owner": null,
+      "Alias": "it"
+    },
+    "Name": "BusinessApp",
+    "Description": "BusinessApp",
+    "Target": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "solution",
+      "Owner": null,
+      "Alias": "BusinessApp"
+    },
+    "Children": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+          "Role": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "roleConfiguration",
+            "Owner": null,
+            "Alias": "it"
+          },
+          "Name": "caseRecordType",
+          "Description": null,
+          "Target": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "template",
+            "Owner": null,
+            "Alias": "caseRecordType"
+          },
+          "Children": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "roleConfiguration",
+                  "Owner": null,
+                  "Alias": "it"
+                },
+                "Name": "it_list",
+                "Description": null,
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "dataset",
+                  "Owner": "caseRecordType",
+                  "Alias": "it_list"
+                },
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "TargetType": "list",
+                "Privileges": "undefined",
+                "AvailablePrivileges": "read",
+                "Expression": null,
+                "Condition": null
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "roleConfiguration",
+                  "Owner": null,
+                  "Alias": "it"
+                },
+                "Name": "it_form",
+                "Description": null,
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "form",
+                  "Owner": "caseRecordType",
+                  "Alias": "it_form"
+                },
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "TargetType": "form",
+                "Privileges": "undefined",
+                "AvailablePrivileges": "read",
+                "Expression": null,
+                "Condition": null
+              }
+            ]
+          },
+          "TargetType": "recordTemplate",
+          "Privileges": "read",
+          "AvailablePrivileges": "read, create, update, delete, execute, localAdmin, contextUserExpression, contextObjectCondition, ignoreNotIncluded",
+          "Expression": null,
+          "Condition": null
+        }
+      ]
+    },
+    "TargetType": "businessApp",
+    "Privileges": "undefined",
+    "AvailablePrivileges": "read, create, update, execute, localAdmin",
+    "Expression": null,
+    "Condition": null
+  }
+}

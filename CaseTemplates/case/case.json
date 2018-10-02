@@ -1,0 +1,18 @@
+{
+  "$type": "Comindware.Platform.Contracts.CaseTemplateConfigurationModel, Comindware.Platform.Contracts",
+  "RelatedRecordTemplateGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "template",
+    "Owner": null,
+    "Alias": "caseRecordType"
+  },
+  "Name": "case",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "template",
+    "Owner": null,
+    "Alias": "case"
+  },
+  "IsDisabled": false,
+  "Description": null
+}

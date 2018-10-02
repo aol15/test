@@ -1,0 +1,34 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "toolbar",
+    "Owner": "caseRecordType",
+    "Alias": "it_toolbar"
+  },
+  "Name": "it_toolbar",
+  "IsDefaultForLists": false,
+  "IsDefaultForForms": false,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "UserCommandGlobalAlias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "userCommand",
+          "Owner": "caseRecordType",
+          "Alias": "archive"
+        },
+        "Name": "Archive",
+        "Description": null,
+        "Order": 0,
+        "Type": "action",
+        "IconType": "undefined",
+        "IconClass": null,
+        "Severity": "none",
+        "ChildrenItems": null
+      }
+    ]
+  }
+}

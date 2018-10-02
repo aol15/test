@@ -1,0 +1,56 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "userCommand",
+    "Owner": "caseRecordType",
+    "Alias": "create"
+  },
+  "Name": "Create",
+  "Description": null,
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "record",
+  "Multiplicity": "oneByOne",
+  "Actors": {
+    "$type": "System.String[], mscorlib",
+    "$values": [
+      "cmw.group.Everyone"
+    ]
+  },
+  "Kind": "create",
+  "ResultType": "dataChange",
+  "ConfirmationModelConfiguration": null,
+  "ScriptRule": null,
+  "ConditionRule": null,
+  "RelatedAction": {
+    "$type": "Comindware.Platform.Contracts.UserCommandRelatedActionModel, Comindware.Platform.Contracts",
+    "ContainerGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "template",
+      "Owner": null,
+      "Alias": "caseRecordType"
+    },
+    "TemplateGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "undefined",
+      "Owner": null,
+      "Alias": null
+    },
+    "FormGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "undefined",
+      "Owner": null,
+      "Alias": null
+    },
+    "PropertyPath": null
+  },
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "undefined",
+    "Owner": null,
+    "Alias": null
+  }
+}
